@@ -1,0 +1,36 @@
+{
+  "name": "@ctyun/barrage",
+  "version": "2.0.1",
+  "description": "a Barrage library. non-dependence / high-performance / pureness。 高性能无依赖弹幕库",
+  "main": "./dist/Barrage.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./example/index.html",
+    "build": "parcel build src/Barrage.ts --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lemoncn/pure-barrage.git"
+  },
+  "keywords": [
+    "danmu",
+    "barrage",
+    "library"
+  ],
+  "author": "lemon",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "object-assign": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "parcel-bundler": "^1.7.1",
+    "typescript": "^2.8.3"
+  }
+}
