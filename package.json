@@ -1,6 +1,6 @@
 {
   "name": "@ctyun/barrage",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "a Barrage library. non-dependence / high-performance / pureness。 高性能无依赖弹幕库",
   "main": "./dist/Barrage.js",
   "directories": {
